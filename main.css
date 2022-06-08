@@ -1,0 +1,117 @@
+
+body {
+  font-family: Roboto, sans-serif;
+  background-image: url("back1.JPG");
+background-position: center;
+background-size: 1500px;
+background-repeat: no-repeat;
+width: 280px;
+margin-left: auto;
+margin-right: auto;
+border: 2px solid transparent;
+border-radius: 20px;
+box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 2.52);
+}
+
+.container {
+  background-color: #FFF0F5;
+}
+
+  /* Свойства ссылок */
+a {
+  display: block;
+  text-decoration:none;
+  position: relative;
+  font-size: 1.0em;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+}
+ 
+  /* Что делать при наведении на ссылку */
+a:hover {
+  color:#C0C0C0;
+}
+
+/* Егор Белов */
+h1 {
+  font-size: 2.1em;
+  font-style: italic;
+  color: white;
+  margin: 0;
+  margin-top: 0.5em;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* QA Engineer */
+h2 {
+  font-size: 2.0em;
+  color: white;
+  margin: 0.3em;
+   text-shadow: 2px 2px 2px black;
+
+/* обо мне*/
+}
+h3 {
+ font-size: 1.0em;
+ font-family: "Goudy Bookletter 1911", sans-serif;
+  margin: 1.25em 0.8em;
+  border: 2px solid transparent;
+border-radius: 2px;
+box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+background-color: white;
+background: rgba(255, 255, 255, 0.7);
+}
+
+/* Contact Me*/
+h4 {
+  border-top: 2px solid white;
+ font-size: 1.8em;
+  font-style: italic;
+  color: white;
+  margin: 0.5em;
+  margin-top: 0.5em;
+   text-shadow: 2px 2px 2px black;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 50px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #C0C0C0;
+}
+ /* Свойства иконок*/
+.icon:hover {
+ filter: grayscale(100%);
+}
+
+
+/*контакты */
+
+.telegram {
+width: 33.3333333333%;
+  float: left;
+}
+.mail {
+width: 33.3333333333%;
+  float: left;
+}
+.github {
+  width: 33.3333333333%;
+  float: left;
+}
+button {
+  background:url(star.png) no-repeat;
+    cursor:pointer;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-right: 16em;
+} 
